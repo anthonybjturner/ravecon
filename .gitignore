@@ -14,4 +14,4 @@ CakePHP 2
 phpMyAdmin/*
 *password*
 /inc/*
-/public/scripts/services/facebook.js
+/resources/scripts/services/facebook-service.js
