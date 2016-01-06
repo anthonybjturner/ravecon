@@ -66,8 +66,25 @@ angular.module("app", ['ngRoute',  'ravecon.directives'])
 }).run( function($rootScope, $location, $http, alert) {	
   
     $rootScope.loggedIn = true;
-      
- 		 
+    $rootScope.isShowingPlayer = true;
+    $rootScope.playerStatus="Hide Player";
+    $rootScope.glyphicon="glyphicon glyphicon-collapse-up"
+         
+ 		 $rootScope.togglerPlayer = function(el){
+ 		  
+ 		   if( $rootScope.isShowingPlayer ){
+ 		     
+ 		     $rootScope.playerStatus="Show Player";
+ 		     $rootScope.glyphicon="glyphicon glyphicon-collapse-down"
+ 		     $rootScope.isShowingPlayer = false;
+ 		     
+ 		   }else{
+ 		      
+ 		      $rootScope.playerStatus="Hide Player";
+ 		      $rootScope.glyphicon="glyphicon glyphicon-collapse-up"
+ 		      $rootScope.isShowingPlayer = true;
+ 		   }
+ 		 }
            // register listener to watch route changes		  
            $rootScope.$on( "$routeChangeStart", function(event, next, current) {		    
        		       

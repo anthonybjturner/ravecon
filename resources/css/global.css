@@ -1,138 +1,118 @@
-.feeds{
+body{
+ background-image: url('../images/gradient-black-3.jpg');  
+padding-top: 70px; 
+
     
-    box-shadow: 2px 2px 2px #ccc;
-    padding: 12px;
 }
 
-.feeds>.form-inline>.form-group{
+.widget{
     
-    
-    width: 100%;
+    height: 100px;
 }
 
-.feeds>.form-inline>.form-group>input{
+.user-info span{
     
-    
-    width: 93%;
-}
-
-
-table tr{
-    
-    margin-bottom: 28px;
+    padding: 8px;
+    background-image: url('../images/gradient-black-5.jpg');
+    background-size: 25%;
+    color: #bfbfbf;
+    margin-bottom: 8px;
 }
 
 
-
-h4, .modal-title{
+a{
     
-    text-align: center;
+ color: #ccc;   
 }
+
+div>.content{
+    
+     background-color: #fff !important;
+     padding:0;
+     border-radius: 8px;
+     margin-bottom: 8px;
+     
+}
+
+.content>.panel-success >.panel-heading{
+    
+    color: #bfbfbf;
+     border-radius: 4px;
+    
+}
+
+h3>.panel-heading{
+    
+    margin-bottom: 8px;
+  
+    
+}
+
+.comment-body{
+    
+    border: 1px solid #ccc;
+    border-radius: 10px 4px 4px;
+    padding: 8px;
+}
+
+
+.panel-heading{
+    
+    background-image: url('../images/gradient-black-vertical.jpg');
+    background-size: 42px;
+     margin: 0;
+     border-radius: 4px;
+     background-color: #000;
+}
+
+
+.panel-info >.content>h4{
+    
+    margin:0;
+}
+
+
+.video-bg{
+    
+    background-color: #000;
+}
+
 
 #banner-area{
     
-    background-image: url('/images/fitness-app-banner.jpg'); 
-    height: 458px;
-    padding: 8px;
+
+    margin-top: 8px;
+    margin-bottom: 16px;
+    background-color: #000;
+    height: 190px;
+    width: 100%;
+    border: solid 1px #333333;
+    text-align: center;
+}
+
+
+#banner-area-image{
     
+    background-image: url('../images/giphy-reverse.gif');
+    height: 100%;
+   
+ 
 }
 
 #banner-area #info{
     
-    color: #fff;
-   
-}
-#header-area-wrapper{
-
-    margin-top: 64px;
-    height: 256px;
-
-}
-
-.calendar{
-    
-    padding-left: 0;
-    padding-right: 0;
-        height: inherit;
-
-}
-
-#header-area{
-    
-     
-    height: inherit;
-    background-size: 100% 100%;
-    
-}
-
-#header-area #info{
-    
-    color: #fff;
-    text-align:center;
-    box-shadow:  1px #ccc; 
-    position: relative;
-    left: 0;
-    bottom: 15px;
-
-}
-
-.menu{
-    
-     padding-left: 0;
-    padding-right: 0;
-    
-    
-}
-
-.menu-wrapper{
-    
-    padding: 24px;
-    margin-top: 24px;
-    box-shadow: 2px 2px 2px 2px #ccc;
-
-}
-
-     
-.tt-menu{
- 
- background-color: #fff;
- width: 100%;
- padding-left: 4px;
- border-radius: 2px 2px 2px;
-}
-     
-.typeahead{
-    
-    width: 100%;
-    box-shadow: 2px 2px 2px #ccc;
-    
-}
-
-.content{
-    
-    padding-left:0;
-    padding-right:0;
+    color: #bfbfbf;
    
 }
 
-.content .panel-heading{
+.column-left{
     
-    text-align: center;
+ clear: left;
 }
 
-#goals-graph {
-    height: 400px; 
-    min-width: 310px; 
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-#foods-graph{
+.column-right{
     
-     height: 400px; 
-    min-width: 310px; 
-    max-width: 800px;
-    margin: 0 auto;
+    clear: right;
 }
 
 .navbar-inverse .navbar-nav>li>a{
